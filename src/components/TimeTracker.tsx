@@ -84,7 +84,7 @@ const TimeTracker: React.FC = () => {
           date,
           clockIn: "09:00",
           clockOut: "17:00",
-          hoursWorked: 9.6,
+          hoursWorked: 10.6,
           overtimeHours: 0
         });
       }
@@ -143,7 +143,7 @@ const TimeTracker: React.FC = () => {
       date: selectedDate,
       clockIn: "09:00",
       clockOut: "17:00",
-      hoursWorked: 9.6,
+      hoursWorked: 10.6,
       overtimeHours: 0
     });
     

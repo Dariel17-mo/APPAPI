@@ -16,7 +16,7 @@ interface TimeEntryProps {
 const TimeEntry: React.FC<TimeEntryProps> = ({ selectedDate, onEntryChange }) => {
   const [clockIn, setClockIn] = useState<string>("09:00");
   const [clockOut, setClockOut] = useState<string>("17:00");
-  const [hoursWorked, setHoursWorked] = useState<number>(9.6);
+  const [hoursWorked, setHoursWorked] = useState<number>(10.6);
   const [overtimeHours, setOvertimeHours] = useState<number>(0);
 
   // Calculate hours whenever clock-in or clock-out changes

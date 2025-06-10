@@ -9,8 +9,8 @@ export type TimeEntry = {
   overtimeHours: number;
 };
 
-// Regular hours per day (8 hours)
-export const REGULAR_HOURS = 9.6;
+// Regular hours per day (10.6 hours)
+export const REGULAR_HOURS = 10.6;
 
 // Parse time string (HH:mm) to Date object
 export const parseTimeString = (dateObj: Date, timeString: string): Date => {
